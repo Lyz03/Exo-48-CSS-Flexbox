@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #575757;
+}
+
+.container {
+    display: flex;
+}
+
+.container div {
+    width: 12.5%;
+    height: 100vh;
+}
+
+.green {
+    background-color: #75b975;
+}
+
+.blue {
+    background-color: #7575c9;
+}
+
+.violet {
+    background-color: #c767ce;
+}
+
+.orange {
+    background-color: #e8aa84;
+}
+
+.red {
+    background-color: #bb6e6e;
+}
+
+
+/*
+* Part 2
+ */
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container2 div {
+    width: 25%;
+    height: 50vh;
+}
+
+/*
+* Part 3
+ */
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container3 div {
+    width: 23%;
+    height: 47vh;
+    margin-top: 2vh;
+}
