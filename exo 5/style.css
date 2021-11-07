@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #575757;
+}
+
+.green {
+    background-color: #75b975;
+}
+
+.blue {
+    background-color: #7575c9;
+}
+
+.violet {
+    background-color: #c767ce;
+}
+
+.orange {
+    background-color: #e8aa84;
+}
+
+.red {
+    background-color: #bb6e6e;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container a {
+    text-decoration: none;
+    color: white;
+    width: 20%;
+    padding: 1rem 0;
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: padding-top, padding-bottom 1s;
+}
+
+.container a:hover {
+    margin: 0;
+    padding: 2rem 0;
+}
+
+@media screen and (max-width: 600px) {
+
+    .container {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .container a {
+        margin: 0;
+    }
+
+}
