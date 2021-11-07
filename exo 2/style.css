@@ -49,20 +49,27 @@ body {
  */
 
 @media screen and (max-width: 1024px) {
+    .container {
+        width: 30%;
+    }
 
+    .container div {
+        width: 40%;
+        height: 18vh;
+    }
 }
 /*
 * Part 3
  */
 
-.container3 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        border: 1px solid white;
+    }
 
-.container3 div {
-    width: 23%;
-    height: 47vh;
-    margin-top: 2vh;
+    .container div, .div5 {
+        flex-basis: 90%;
+        height: 18vh;
+    }
 }
