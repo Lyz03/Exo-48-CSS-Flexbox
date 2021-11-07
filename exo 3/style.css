@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #575757;
+}
+
+.green {
+    background-color: #75b975;
+}
+
+.blue {
+    background-color: #7575c9;
+}
+
+.violet {
+    background-color: #c767ce;
+}
+
+.orange {
+    background-color: #e8aa84;
+}
+
+.red {
+    background-color: #bb6e6e;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container div {
+    width: 22%;
+    height: 30vh;
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
